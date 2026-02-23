@@ -240,7 +240,7 @@
 			legacy_id=-1
 			
 			}	
-		}			
+	}			
 	MMM_artem_ryzhov = {
 		name = MMM_artem_ryzhov
 		portraits = {
@@ -260,32 +260,35 @@
 		}
 	}
 
-	MMM_anastasia_ivanova = {
-	name = MMM_anastasia_ivanova
+    MMM_anastasia_ivanova = {
+    name = MMM_anastasia_ivanova
 	portraits = {
-				civilian = { # <-- ВАЖНО: Для советника нужен civilian портрет
-					large = GFX_portrait_MMM_anastasia_ivanova
-					small = GFX_idea_MMM_anastasia_ivanova # Маленькая иконка в списке советников
-				}
+			army={
+				small=GFX_idea_MMM_anastasia_ivanova
 			}
-	advisor ={
-			id = -1
-			slot = political_advisor
+			civilian={
+				large=GFX_portrait_MMM_anastasia_ivanova
+			}
+		}
+		
+		advisor={
+	        slot = political_advisor
 			idea_token = MMM_anastasia_ivanova
 			allowed = {
 				original_tag = MMM
 			}
-			traits = {
-				loveful_wife
-			}
+			traits = { nastya }
 			cost = 150
-			available = { has_government  = neutrality }
-
-		}
+			available  = {
+					has_government  = neutrality
+			}
+		}	
 	}
+	
 }
 
-#qwerty
+#qwerty set_ruling_party
+#=^*w*^=
 
 
 

@@ -63,7 +63,7 @@ leader_traits = {
 		generate_wargoal_tension = 0.80
 	
 	}
-	loveful_wife = {
+	nastya = {
 		random = no
 		stability_factor = 0.15
 	}

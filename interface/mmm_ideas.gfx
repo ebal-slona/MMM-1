@@ -4,7 +4,7 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_select_date_1488"
-		texturefile = "gfx/interface//idea_select_date_1488.dds"
+		texturefile = "gfx/interface/idea_select_date_1488.dds"
 		noOfFrames = 18
 	}
 }

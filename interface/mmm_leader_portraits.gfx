@@ -36,7 +36,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MMM/Portrait_MMM_artem_ryzhov.dds"
 	}
 	spriteType = {
-    name = "GFX_portrait_MMM_anastasia_ivanova"
-    texturefile = "gfx/leaders/MMM/Portrait_MMM_anastasia_ivanova.dds"
+		name = "GFX_portrait_MMM_anastasia_ivanova"
+		texturefile = "gfx/leaders/MMM/Portrait_MMM_anastasia_ivanova.dds"
 	}
 }

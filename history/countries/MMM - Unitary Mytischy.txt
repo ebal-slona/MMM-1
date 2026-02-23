@@ -7,6 +7,7 @@ add_ideas = {
 		MMM_trotskyite_plot
 		MMM_victors_of_war 
 		MMM_undiversified_economy
+		MMM_anastasia_ivanova
 }
 
 # Starting tech
@@ -79,5 +80,5 @@ recruit_character = MMM_pavel_voronin
 recruit_character = MMM_nikolay_nekrasov
 recruit_character = MMM_igor_molodtsov
 recruit_character = MMM_danila_orshanskiy
-recruit_character = MMM_artem_ryzhov
 recruit_character = MMM_anastasia_ivanova
+recruit_character = MMM_artem_ryzhov
