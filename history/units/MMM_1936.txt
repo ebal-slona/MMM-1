@@ -1,0 +1,371 @@
+﻿division_template = {
+	name = "Orkestr"	# Infantry Division	
+	# Note: infantry divisions were all at low reserve levels even just prior to Axis 
+	#	invasion of 1941
+
+	division_names_group = MMM_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 } 
+		artillery = { x = 0 y = 1 }  
+	}
+}
+division_template = {
+	name = "Checheny"		# Mountain Brigade
+
+	division_names_group = MMM_MTN_01
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+	}
+}
+division_template = {
+
+	division_names_group = MMM_CAV_01
+
+	name = "CSKA-Gondony" 			# Cavalry Division
+	# Note: regiments within the brigade were battalion-sized units
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+}
+division_template = {
+	name = "Gachi tankoviy" 			
+	
+
+	division_names_group = MMM_ARM_01
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		infantry = { x = 1 y = 0 }       # added infantry to not make it a death trap
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+
+
+units = {
+	######## LAND UNITS ########
+	######  ######
+	division = {
+#		name = "Orkestr Div."  			
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 721
+		division_template = "Orkestr"
+		start_experience_factor = 0.3
+	}
+	division = {
+		#name = "1. Orkestr Div."  			
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 721
+		division_template = "Orkestr"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		name = "1. Gachi tankoviy"
+		location = 721
+		division_template = "Gachi tankoviy"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+		force_equipment_variants = { gw_tank_equipment = { owner = "YUG" creator = "FRA" } }
+
+	}
+
+	### Obalnim Armija ###
+	division = {
+		#name = "12. Orkestr Div."  			
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 12
+		}
+		location = 11405
+		division_template = "Orkestr"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+
+	### 5. Armija ###
+	division = {
+		#name = "8. Orkestr Div."  			
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 11405
+		division_template = "Orkestr"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		#name = "9. Orkestr Div."  				
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 9
+		}
+		location = 11405
+		division_template = "Orkestr"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		#name = "2. CSKA-Gondony"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 6474
+		division_template = "CSKA-Gondony"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+
+	### 6. Armija ###
+	division = {
+		#name = "3. Orkestr Div."  			
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 6474
+		division_template = "Orkestr"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+
+	#### 1. Grupa Vojska ####
+	### 4. Armija ###
+	division = {
+		#name = "27. Orkestr Div."  			
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 27
+		}
+		location = 9417
+		division_template = "Orkestr"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+
+	### 7. Armija ###
+	division = {
+		#name = "Checheny"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11696
+		division_template = "Checheny"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		#name = "Checheny" 							
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 11696
+		division_template = "Checheny"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		#name = "1. CSKA-Gondony"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 3686
+		division_template = "CSKA-Gondony"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+
+	#### 2. Grupa Vojska ####
+	### 1. Armija ###
+	division = {
+		#name = "7. Orkestr Div."  				
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 3686
+		division_template = "Orkestr"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		#name = "3. CSKA-Gondony"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 3686
+		division_template = "CSKA-Gondony"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+
+	### 2. Armija ###
+	division = {
+		#name = "10. Orkestr Div."  			
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = 3734
+		division_template = "Orkestr"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		#name = "17. Orkestr Div."  			
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 17
+		}
+		location = 3734
+		division_template = "Orkestr"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+
+	#### 3. Grupa Vojska ####
+	### 3. Armija ###
+	division = {
+		#name = "13. Orkestr Div."  		
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 13
+		}
+		location = 3757
+		division_template = "Orkestr"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		#name = "15. Orkestr Div."  				
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 15
+		}
+		location = 11683
+		division_template = "Orkestr"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		#name = "25. Orkestr Div."  			
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 25
+		}
+		location = 11683
+		division_template = "Orkestr"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+
+	### 3. Teritorijalna Armija ###
+	division = {
+		#name = "5. Orkestr Div."  			
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 11437
+		division_template = "Orkestr"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		#name = "20. Orkestr Div."  		
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 20
+		}
+		location = 11437
+		division_template = "Orkestr"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division = {
+		#name = "22. Orkestr Div."  			
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 22
+		}
+		location = 3734
+		division_template = "Orkestr"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+}  
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "MMM"
+		}
+		requested_factories = 1
+		progress = 0.37
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "MMM"
+		}
+		requested_factories = 1
+		progress = 0.76
+		efficiency = 100
+	}
+	
+}

@@ -1,0 +1,48 @@
+father_of_mytischy = {
+    picture = GFX_idea_generic_head_of_state
+    allowed = { original_tag = MMM }
+    traits_effect = {
+        ideology_drift_defense = 0.5
+        attack_bonus_on_core = 0.15
+        defense_bonus_on_core = 0.15
+        political_power_gain = 0.10
+    }
+}
+monarch_aesthete = {
+    picture = GFX_idea_monarch
+    traits_effect = {
+        consumer_goods_factor = -0.15
+        stability = 0.10
+    }
+}
+lenin_viceroy = {
+    traits_effect = {
+        daily_communism_support = 0.15
+        industrial_construction_speed = 0.15
+        war_support = 0.10
+    }
+}
+bishkek_thunder = {
+    traits_effect = {
+        opinion_gain_countries_asia = 50
+        war_support = 0.10
+        recruitable_population = 0.01
+        division_speed = 0.10
+    }
+}
+tied_to_a_tree = {
+    traits_effect = {
+        attack = -0.10
+        defense = 0.15
+        planning_speed = 0.10
+        war_support = 0.20
+    }
+}
+right_leaning_democrat = {
+    traits_effect = {
+        industrial_construction_speed = 0.20
+        stability = -0.20
+        operative_slots = 3
+        agency_upgrade_time = -0.15
+    }
+}

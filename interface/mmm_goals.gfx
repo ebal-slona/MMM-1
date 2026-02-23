@@ -1,0 +1,8 @@
+spriteTypes = {	
+
+
+	SpriteType = {
+		name = "GFX_goal_MMM_devalue_the_rubl"
+		texturefile =  "gfx/interface/goals/goal_MMM_devalue_the_rubl.dds"			
+	}
+}

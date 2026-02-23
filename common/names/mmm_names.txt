@@ -1,0 +1,44 @@
+MMM = {
+	male = {
+		names = { 
+			Aleksandr Aleksey Andrey Anton Boris Dmitry Fyodor Gennady 
+			Georgy Grigory Igor Ilya Iosif Ivan Kirill Konstantin Lavr Leonid Lev
+			Maksim Mikhail Nikita Nikolay Noy Oleg Pavel Pyotr Roman Semyon Sergey
+			Valery Vasily Viktor Vladimir Vladislav Yegor Yevgeny Yury
+			
+			    }
+	
+		surnames = { 
+			Akhnazarov Akimenko Alekseyev Antonov Azarov Badanov Brusilov Budyonny Chibisov Denikin 
+			Dragomirov Frolov Golivin Grishin Gurko Ivanov Ivannikov Isayev 
+			Konev Konstantinov Kornilov Kolchak Kuropatkin
+			Lazarev Makarov Maksimov Menshikov Nakhimov Nebogatov Nikolayevich Nikitin
+			Ostrovsky Pavlov Putyatin Romanov Rozhestvensky Skobelev 
+			Shuvalov Surkov Tukhachevsky Yan Yegorov Yudenich Vorontsov Voroshilov Zavoyko
+				}
+	}
+	female = {
+		names = {
+			Afanasiya Albina Aleksandra Alyona Anastasiya Elena Elvira Karina Lydia Lyudmila Margarita Muza Natalya Olga Sofiya Svetlana Valentina Veronika Yelena
+			}
+			surnames = {
+			Abramova Abyzova Akhnazarova Akimenko Akimova Aleksandrova Aleksandrovna Almazova Anashkina Anatolyevna Artamonova
+			Badanova Bakieva Barakina Barkova Bocharova Bondaryova Bratishcheva Bulatova Bulgakova 
+			Chegodayeva Chernisheva Chibisova Chigvintseva Chistyakova Chuikova Fedutenko Filippova Fyodorova 
+			Gabrilova Gagarina Ganyeva Gasheva Golubeva Grachyova Grigorova Grishayeva Grunskaya Gulyakina Guseva Isayeva Ivanova 
+			Kekeshyeva Kiselyova Klubkova Koldeyeva Kondakova Koreneva Korotkevich Kosmodemyanskaya Kovalenko Kovshova Kroshchenko Kuzmina Kuznetsova
+			Larionova Lavrentyeva Lidova Loginova Lukichyova 
+			Makeyeva Makhlyagina Makoveyeva Maksimova Malyutina Maresyeva Markelova Matokh Mazhnova Melikhova Menshikova Milko Moiseyenko Molchanova
+			Moldagulova Mulatova Murakhovets Nakaryakova Nakhimova Nesterova Nikiforova Nikiforovna Nikoloyeva Novozhilova Nurmukhambetovna
+			Okuneva Onilova Orlova
+			Pakhomkina Panchenko Panteleyeva Parfyonova Pavlichenko Pavlova Pchelintseva Pegeshova Peredera Petrova Popova Posazhnikova Prokopeva Pustobrikova
+			Rabicheva Rachkevich Radkina Raskova Reznichenko Rogalskaya Romanova Romashova Rudneva Ryasina 
+			Saikina Sanfirova Selina Selyanina Serebryakova Shalayeva Shambarova Shanina Shatrova
+			Shevelyova Shilova Shlyakhova Shvetsova Simonova Sokolova Stepanova Surkova Svetlova
+			Tanailova Terekhova Tinigina Ulyanenko Vashchenko Vasilenko Vinogradova Visnitskaya Volkhova Vorontsova
+			Yartseva Yegorova Yekimova Yermakova Yushina Zakharova Zhukova
+			}
+			}
+	callsigns = { Chmo Loh Pidor Kurwa Krutoi Padavan Barebuh Yascher Arseniy Govnovozka Xui}
+	
+	}

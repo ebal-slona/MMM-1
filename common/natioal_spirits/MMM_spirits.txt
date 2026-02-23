@@ -1,0 +1,27 @@
+centralized_government = {
+    add_modifier = { production_speed = 0.10 }
+}
+
+tikhanskiy_plot = {
+    add_modifier = {
+        political_power_gain = -0.15
+        stability = -0.20
+    }
+}
+
+war_that_broke_us = {
+    add_modifier = {
+        recruitable_population_factor = -0.30
+        war_support = -0.40
+        land_doctrine_cost_factor = 0.50
+    }
+}
+
+shattered_economy = {
+    add_modifier = {
+        construction_speed = -0.15
+        industrial_capacity_factory = -0.15
+        economy_law_cost_factor = 0.50
+        trade_law_cost_factor = 0.50
+    }
+}

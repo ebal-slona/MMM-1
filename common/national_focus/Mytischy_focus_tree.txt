@@ -1,0 +1,537 @@
+### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+### search_filters = {FOCUS_FILTER_INTERNAL_AFFAIRS}
+### search_filters = {FOCUS_FILTER_ARMY_XP}
+### search_filters = {FOCUS_FILTER_NAVY_XP}
+### search_filters = {FOCUS_FILTER_AIR_XP}
+### search_filters = {FOCUS_FILTER_BALANCE_OF_POWER}
+### search_filters = {FOCUS_FILTER_POLITICAL_CHARACTER}
+### search_filters = {FOCUS_FILTER_MILITARY_CHARACTER}
+### search_filters = {FOCUS_FILTER_INTERNATIONAL_TRADE}
+### search_filters = {FOCUS_FILTER_HISTORICAL}
+
+	focus_tree = {
+		id = Mytischy_focus_tree
+		
+		country = {
+			factor = 0
+			
+			modifier = {
+				add = 10
+				tag = MMM
+				#has_dlc = "Death or Dishonor"
+			}
+		}
+		
+		default = no
+
+		continuous_focus_position = { x = 50 y = 1100 }
+
+		#shared_focus = HABSBURG_part_of_something_bigger
+		
+		focus = {
+			id = MMM_mytischy_war_lore
+			icon = GFX_focus_AUS_reclaim_habsburg
+			
+			#prerequisite = { focus = }
+			#mutually_exclusive = { focus =  }
+			x = 10
+			y = 0
+			#relative_position_id =
+
+			cost = 10
+
+			#ai_will_do = {
+			#	factor = 1
+			#}
+
+			available = {
+
+			}
+			search_filters = { FOCUS_FILTER_POLITICAL }
+			bypass = {
+
+			}
+
+			#cancel_if_invalid = yes
+			#continue_if_invalid = no
+			#available_if_capitulated = no
+
+			#complete_tooltip = {
+	#
+			#}
+
+			completion_reward = {
+			add_political_power = 50
+			}
+		}
+		
+		focus = {
+			id = MMM_mytischy_war_lore1
+			icon = GFX_focus_SOV_the_supreme_soviet
+			prerequisite = { focus = MMM_mytischy_war_lore }
+			mutually_exclusive = { focus = MMM_mytischy_war_lore2 focus = MMM_mytischy_war_lore3 focus = MMM_mytischy_war_lore4 }
+			x = -9
+			y = 1
+			
+		relative_position_id = MMM_mytischy_war_lore
+
+			cost = 10
+
+			#ai_will_do = {
+			#	factor = 1
+			#}
+
+			available = {
+
+			}
+			search_filters = { FOCUS_FILTER_POLITICAL }
+
+			bypass = {
+
+			}
+
+			#cancel_if_invalid = yes
+			#continue_if_invalid = no
+			#available_if_capitulated = no
+
+			#complete_tooltip = {
+	#
+			#}
+
+			completion_reward = {
+				add_popularity = {
+					ideology = communism
+					popularity = 0.05
+				}
+			}
+		}
+		focus = {
+			id = MMM_mytischy_war_lore2
+			icon = GFX_focus_AFG_parliamentary_democracy
+			prerequisite = { focus = MMM_mytischy_war_lore }
+			mutually_exclusive = { focus = MMM_mytischy_war_lore1 focus = MMM_mytischy_war_lore3 focus = MMM_mytischy_war_lore4 }
+			x = -3
+			y = 1
+			
+		relative_position_id = MMM_mytischy_war_lore
+
+			cost = 10
+
+			#ai_will_do = {
+			#	factor = 1
+			#}
+
+			available = {
+
+			}
+			search_filters = { FOCUS_FILTER_POLITICAL }
+			bypass = {
+
+			}
+
+			#cancel_if_invalid = yes
+			#continue_if_invalid = no
+			#available_if_capitulated = no
+
+			#complete_tooltip = {
+	#
+			#}
+
+			completion_reward = {
+				
+				add_popularity = {
+					ideology = democratic
+					popularity = 0.05
+				}
+			}
+		}focus = {
+			id = MMM_mytischy_war_lore3
+			icon = GFX_focus_GRE_an_orthodox_state
+			prerequisite = { focus = MMM_mytischy_war_lore }
+			mutually_exclusive = { focus = MMM_mytischy_war_lore1 focus = MMM_mytischy_war_lore2 focus = MMM_mytischy_war_lore4 }
+			x = 3
+			y = 1
+			
+		relative_position_id = MMM_mytischy_war_lore
+
+			cost = 10
+
+			#ai_will_do = {
+			#	factor = 1
+			#}
+
+			available = {
+
+			}
+			search_filters = { FOCUS_FILTER_POLITICAL }
+			bypass = {
+
+			}
+
+			#cancel_if_invalid = yes
+			#continue_if_invalid = no
+			#available_if_capitulated = no
+
+			#complete_tooltip = {
+	#
+			#}
+
+			completion_reward = {
+	add_political_power = 50
+			}
+		}
+		focus = {
+			id = MMM_mytischy_war_lore4
+			icon = GFX_focus_ITA_generic_fascist_workers
+			prerequisite = { focus = MMM_mytischy_war_lore }
+			mutually_exclusive = { focus = MMM_mytischy_war_lore1 focus = MMM_mytischy_war_lore2 focus = MMM_mytischy_war_lore3 }
+			x = 9
+			y = 1
+			
+		relative_position_id = MMM_mytischy_war_lore
+
+			cost = 10
+
+			#ai_will_do = {
+			#	factor = 1
+			#}
+
+			available = {
+
+			}
+			search_filters = { FOCUS_FILTER_POLITICAL }
+			bypass = {
+
+			}
+
+			#cancel_if_invalid = yes
+			#continue_if_invalid = no
+			#available_if_capitulated = no
+
+			#complete_tooltip = {
+	#
+			#}
+
+			completion_reward = {
+				add_popularity = {
+					ideology = fascism
+					popularity = 0.05
+				}
+			}
+		}
+		focus = {
+			id = MMM_mytischy_war_lore5
+			icon = GFX_focus_CHL_departemento_de_las_tropas_nacistas_de_asalto
+			prerequisite = { focus = MMM_mytischy_war_lore3 }
+			mutually_exclusive = { focus = MMM_mytischy_war_lore6 }
+			x = 2
+			y = 2
+			
+		relative_position_id = MMM_mytischy_war_lore
+
+			cost = 10
+
+			#ai_will_do = {
+			#	factor = 1
+			#}
+
+			available = {
+
+			}
+			search_filters = { FOCUS_FILTER_POLITICAL }
+			bypass = {
+
+			}
+
+			#cancel_if_invalid = yes
+			#continue_if_invalid = no
+			#available_if_capitulated = no
+
+			#complete_tooltip = {
+	#
+			#}
+
+			completion_reward = {
+	add_political_power = 50
+			}
+		}
+		focus = {
+			id = MMM_mytischy_war_lore6
+			icon = GFX_focus_generic_monarchy_1
+			prerequisite = { focus = MMM_mytischy_war_lore3 }
+			mutually_exclusive = { focus = MMM_mytischy_war_lore5 }
+			x = 4
+			y = 2
+			
+		relative_position_id = MMM_mytischy_war_lore
+
+			cost = 10
+
+			#ai_will_do = {
+			#	factor = 1
+			#}
+
+			available = {
+				
+
+			}
+			search_filters = { FOCUS_FILTER_POLITICAL }
+			bypass = {
+
+			}
+
+			#cancel_if_invalid = yes
+			#continue_if_invalid = no
+			#available_if_capitulated = no
+
+			#complete_tooltip = {
+	#
+			#}
+
+			completion_reward = {
+				
+			add_popularity = {
+					ideology = democratic
+					popularity = 0.05
+				}
+				
+			}
+		}
+		focus = {
+			id = MMM_repair_infrastructure
+			icon = GFX_focus_ITA_southern_industry
+			#prerequisite = { }
+			#mutually_exclusive = { focus = MMM_mytischy_war_lore5 }
+			x = -14
+			y = 0
+			
+		#relative_position_id = MMM_mytischy_war_lore
+
+			cost = 5
+
+			#ai_will_do = {
+			#	factor = 1
+			#}
+
+			available = {
+				
+
+			}
+			search_filters = { FOCUS_FILTER_POLITICAL }
+			bypass = {
+
+			}
+
+			#cancel_if_invalid = yes
+			#continue_if_invalid = no
+			#available_if_capitulated = no
+
+			#complete_tooltip = {
+	#
+			#}
+
+			completion_reward = {
+			if = {
+				limit = {
+					all_owned_state = {
+						infrastructure > 2
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = infrastructure
+							size > 1
+						}
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes						
+					}
+					set_state_flag = SOV_infrastructure_effort_3Inf
+				}
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = infrastructure
+							size > 1
+						}
+					}
+					add_building_construction = {
+						type = infrastructure
+						level = 2
+						instant_build = yes
+					}
+					set_state_flag = SOV_infrastructure_effort_3Inf
+				}				
+			}
+		}
+		}
+	
+focus = {
+			id = MMM_heavy_indusrty
+			icon = GFX_goal_generic_construct_civ_factory
+			#prerequisite = { }
+			#mutually_exclusive = { focus = MMM_mytischy_war_lore5 }
+			x = -12
+			y = 0
+			
+		#relative_position_id = MMM_mytischy_war_lore
+
+			cost = 5
+
+			#ai_will_do = {
+			#	factor = 1
+			#}
+
+			available = {
+				
+
+			}
+			search_filters = { FOCUS_FILTER_POLITICAL }
+			bypass = {
+
+			}
+
+			#cancel_if_invalid = yes
+			#continue_if_invalid = no
+			#available_if_capitulated = no
+
+			#complete_tooltip = {
+	#
+			#}
+
+			completion_reward = {	
+
+			}	
+	}
+	
+		focus = {
+			id = MMM_research_slot_1
+			icon = GFX_focus_NORDIC_dem_research
+			prerequisite = {focus = MMM_heavy_indusrty }
+			prerequisite = {focus = MMM_repair_infrastructure }
+			#mutually_exclusive = { focus = MMM_mytischy_war_lore5 }
+			x = -13
+			y = 1
+			
+		#relative_position_id = MMM_mytischy_war_lore
+
+			cost = 10
+
+			#ai_will_do = {
+			#	factor = 1
+			#}
+
+			available = {
+				
+
+			}
+			search_filters = { FOCUS_FILTER_POLITICAL }
+			bypass = {
+
+			}
+
+			#cancel_if_invalid = yes
+			#continue_if_invalid = no
+			#available_if_capitulated = no
+
+			#complete_tooltip = {
+	#
+			#}
+
+			completion_reward = {
+				add_research_slot = 1	
+
+			}	
+	}
+	focus = {
+			id = MMM_devolvation_of_rubl
+			icon = GFX_focus_fra_devalue_the_franc
+			prerequisite = {focus = MMM_heavy_indusrty }
+			prerequisite = {focus = MMM_repair_infrastructure }
+			#mutually_exclusive = { focus = MMM_mytischy_war_lore5 }
+			x = -13
+			y = 2
+			
+		#relative_position_id = MMM_mytischy_war_lore
+
+			cost = 10
+
+			#ai_will_do = {
+			#	factor = 1
+			#}
+
+			available = {
+				
+
+			}
+			search_filters = { FOCUS_FILTER_POLITICAL }
+			bypass = {
+
+			}
+
+			#cancel_if_invalid = yes
+			#continue_if_invalid = no
+			#available_if_capitulated = no
+
+			#complete_tooltip = {
+	#
+			#}
+
+			completion_reward = {
+				add_research_slot = 1	
+
+			}	
+	}
+	focus = {
+			id = MMM_brils_bank
+			icon = GFX_focus_PER_national_bank
+			prerequisite = {focus = MMM_devolvation_of_rubl }
+			
+			#mutually_exclusive = { focus = MMM_mytischy_war_lore5 }
+			x = -13
+			y = 3
+			
+		#relative_position_id = MMM_mytischy_war_lore
+
+			cost = 10
+
+			#ai_will_do = {
+			#	factor = 1
+			#}
+
+			available = {
+				
+
+			}
+			search_filters = { FOCUS_FILTER_POLITICAL }
+			bypass = {
+
+			}
+
+			#cancel_if_invalid = yes
+			#continue_if_invalid = no
+			#available_if_capitulated = no
+
+			#complete_tooltip = {
+	#
+			#}
+
+			completion_reward = {
+				add_timed_idea = {
+				idea = SOV_restoration_and_development_idea
+				days = 365
+			}	
+
+			}	
+	}
+
+}

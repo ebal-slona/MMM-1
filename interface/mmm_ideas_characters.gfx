@@ -1,0 +1,42 @@
+spriteTypes = {
+
+	### MMM
+
+	spriteType = {
+		name = "GFX_idea_MMM_valeriy_minkov"
+		texturefile = "gfx/interface/ideas/idea_MMM_valeriy_minkov.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_MMM_anton_tikhanskiy1"
+		texturefile = "gfx/interface/ideas/idea_MMM_anton_tihanskiy1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_MMM_georgiy_bril"
+		texturefile = "gfx/interface/ideas/idea_MMM_georgiy_bril.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_MMM_danila_orshanskiy"
+		texturefile = "gfx/interface/ideas/idea_MMM_danila_orshanskiy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_MMM_anastasia_ivanova"
+		texturefile = "gfx/interface/ideas/idea_MMM_anastasia_ivanova.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_MMM_nikolay_nekrasov"
+		texturefile = "gfx/interface/ideas/idea_MMM_nikolay_nekrasov.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_MMM_pavel_voronin"
+		texturefile = "gfx/interface/ideas/idea_MMM_pavel_voronin.dds"
+	}
+	
+#	spriteType = {
+#		name = "GFX_idea_MMM_danila_orshanskiy"
+#		texturefile = "gfx/interface/ideas/idea_MMM_danila_orshanskiy.dds"
+#	}
+#	spriteType = {
+#		name = "GFX_idea_MMM_danila_orshanskiy"
+#		texturefile = "gfx/interface/ideas/idea_MMM_danila_orshanskiy.dds"
+#	}
+}

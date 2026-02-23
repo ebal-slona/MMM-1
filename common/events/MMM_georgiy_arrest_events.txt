@@ -1,0 +1,45 @@
+country_event = {
+    id = MMM_georgiy_exile_event
+    title = "MMM_georgiy_exile_title"
+    desc = "MMM_georgiy_exile_desc"
+    picture = GFX_evt_prison
+    days = 1
+    is_triggered_only = yes
+
+    option = {
+        name = "MMM_georgiy_exile_option"
+        add_stability = -0.10
+        # В дальнейшем можно добавить последствия
+    }
+}
+
+country_event = {
+    id = MMM_georgiy_thrombosis_event
+    title = "MMM_georgiy_thrombosis_title"
+    desc = "MMM_georgiy_thrombosis_desc"
+    picture = GFX_evt_medical
+    days = 1
+    is_triggered_only = yes
+
+    option = {
+        name = "MMM_georgiy_thrombosis_option"
+        # Возможные последствия
+    }
+}
+
+country_event = {
+    id = MMM_georgiy_poisoning_takeover
+    title = "MMM_georgiy_poisoning_takeover_title"
+    desc = "MMM_georgiy_poisoning_takeover_desc"
+    picture = GFX_evt_assassination
+    trigger = {
+        has_government = neutral
+        NOT = { has_global_flag = MMM_georgiy_imprisoned }
+        days > 150 # можно ограничить триггером по времени, если нужно
+    }
+    option = {
+        name = "MMM_georgiy_poisoning_takeover_option"
+        set_global_flag = MMM_georgiy_took_power
+        # Влияние смены лидера, ивенты и т.д.
+    }
+}

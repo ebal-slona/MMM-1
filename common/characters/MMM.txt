@@ -1,0 +1,289 @@
+ characters = {   
+	
+	
+	MMM_valeriy_minkov = {
+    name = MMM_valeriy_minkov
+	portraits = {
+			army={
+				small=GFX_idea_MMM_valeriy_minkov
+			}
+			civilian={
+				large=GFX_portrait_MMM_valeriy_minkov
+			}
+		}
+	country_leader={
+			ideology=despotism
+			expire="1965.1.1.1"
+			id=-1
+			traits = {
+				father_of_mytischy
+			}
+		}
+		
+	advisor={
+	        slot = high_command
+			idea_token = MMM_valeriy_minkov
+			ledger = army
+			allowed = {
+				original_tag = MMM
+			}
+			traits = {
+				army_chief_offensive_3
+			}
+			cost = 150
+			available  = {
+					has_government  = neutrality
+			}
+		}
+	
+    field_marshal={
+			traits={ offense_expert media_personality war_hero }
+			skill=5
+			attack_skill=5
+            defense_skill=3
+            planning_skill=3
+            logistics_skill=4
+			legacy_id=-1
+			visible = { NOT = {
+								has_government  = communism
+								has_government  = democratic
+								has_government  = fascism
+															}
+			}
+		}
+    
+	}
+
+
+    MMM_georgiy_bril = {
+    name = MMM_georgiy_bril
+	portraits = {
+			army={
+				small=GFX_idea_MMM_georgiy_bril
+			}
+			civilian={
+				large=GFX_portrait_MMM_georgiy_bril
+			}
+		}
+		country_leader={
+			ideology=populism
+			expire="1965.1.1.1"
+			id=-1
+			traits = {
+				monarch_aestate
+			}
+		}
+		advisor={
+	        slot = political_advisor
+			idea_token = MMM_georgiy_bril
+			allowed = {
+				original_tag = MMM
+			}
+			traits = {
+				popular_figurehead2
+			}
+			cost = 100
+			available  = {
+				OR = {
+					has_government  = neutrality
+					has_government  = democratic
+				}
+				NOT = { is_country_leader = yes }
+			}
+		}	
+	}
+
+    MMM_anton_tikhanskiy = {
+    name = MMM_anton_tikhanskiy
+	portraits = {
+			army={
+				small=GFX_idea_MMM_anton_tihanskiy1
+			}
+			civilian={
+				large=GFX_portrait_MMM_anton_tihanskiy
+			}
+		}
+	country_leader={
+			ideology=leninism
+			expire="1965.1.1.1"
+			id=-1
+			traits = {
+				lenin_son_on_the_earth
+			}
+		}
+	corps_commander={
+			traits={ armor_officer }
+			skill=4
+			attack_skill=6
+            defense_skill=2
+            planning_skill=2
+            logistics_skill=2
+			legacy_id=-1
+			visible = { NOT = {
+								has_government  = neutrality
+								has_government  = democratic
+								has_government  = fascism
+															}
+			}
+		}
+
+	}
+    MMM_pavel_voronin = {
+    name = MMM_pavel_voronin
+	portraits = {
+			army={
+				small=GFX_idea_MMM_pavel_voronin
+			}
+			civilian={
+				large=GFX_portrait_MMM_pavel_voronin
+			}
+		}
+	country_leader={
+			ideology=nazism
+			expire="1965.1.1.1"
+			id=-1
+			traits = {
+				thunder_of_bishkek
+			}
+		}
+	field_marshal={
+			traits={ infantry_expert }
+			skill=5
+			attack_skill=4
+            defense_skill=4
+            planning_skill=4
+            logistics_skill=4
+			legacy_id=-1
+			visible = { NOT = {
+								has_government  = communism
+								has_government  = democratic
+								has_government  = neutrality
+															}
+			}
+		}
+}
+
+    MMM_nikolay_nekrasov = {
+    name = MMM_nikolay_nekrasov
+	portraits = {
+			army={
+				small=GFX_idea_MMM_nikolay_nekrasov
+				}
+			civilian={
+				large=GFX_portrait_MMM_nikolay_nekrasov
+			}
+		}
+	advisor={
+	        slot = high_command
+			idea_token = MMM_nikolay_nekrasov
+			allowed = {
+				original_tag = MMM
+			}
+			traits = {
+				armor_expert
+			}
+			cost = 150
+			available  = {
+				
+				NOT = { is_country_leader = yes }
+			}
+		}
+   corps_commander={
+			traits={ media_personality war_hero armor_officer }
+			skill=5
+			attack_skill=6
+            defense_skill=3
+            planning_skill=3
+            logistics_skill=1
+			legacy_id=-1
+  
+   }
+}
+
+    MMM_igor_molodtsov = {
+    name = MMM_igor_molodtsov
+	portraits = {
+			army={
+				small=GFX_idea_MMM_igor_molodtsov			
+				}
+			civilian={
+				large=GFX_portrait_MMM_igor_molodtsov
+				}
+			}
+	country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+			traits = {
+				right_leaning_democrat
+			}
+		}	
+}
+
+
+	MMM_danila_orshanskiy = {
+    name = MMM_danila_orshanskiy
+	portraits = {
+			army={
+				small=GFX_idea_MMM_danila_orshanskiy
+				large=GFX_portrait_MMM_danila_orshanskiy
+			}
+		}
+
+	corps_commander={
+			traits={ infantry_officer }
+			skill=3
+			attack_skill=4
+            defense_skill=4
+            planning_skill=3
+            logistics_skill=2
+			legacy_id=-1
+			
+			}	
+		}			
+	MMM_artem_ryzhov = {
+		name = MMM_artem_ryzhov
+		portraits = {
+			army = {
+				large = GFX_portrait_MMM_artem_ryzhov
+				small = GFX_idea_MMM_artem_ryzhov
+			}
+		}
+		navy_leader = {
+			traits = { ironside ground_pounder }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 4
+			maneuvering_skill = 3
+			coordination_skill = 5
+			legacy_id = -1
+		}
+	}
+
+	MMM_anastasia_ivanova = {
+	name = MMM_anastasia_ivanova
+	portraits = {
+				civilian = { # <-- ВАЖНО: Для советника нужен civilian портрет
+					large = GFX_portrait_MMM_anastasia_ivanova
+					small = GFX_idea_MMM_anastasia_ivanova # Маленькая иконка в списке советников
+				}
+			}
+	advisor ={
+			id = -1
+			slot = political_advisor
+			idea_token = MMM_anastasia_ivanova
+			allowed = {
+				original_tag = MMM
+			}
+			traits = {
+				loveful_wife
+			}
+			cost = 150
+			available = { has_government  = neutrality }
+
+		}
+	}
+}
+
+
+

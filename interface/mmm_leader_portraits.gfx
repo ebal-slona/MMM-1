@@ -1,0 +1,42 @@
+spriteTypes = {
+
+	# leaders we need to override in DLC go in this file
+
+	spriteType = {
+		name = "GFX_portrait_MMM_valeriy_minkov"
+		texturefile = "gfx/leaders/MMM/Portrait_MMM_valeriy_minkov.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_MMM_georgiy_bril"
+		texturefile = "gfx/leaders/MMM/Portrait_MMM_georgiy_bril.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_MMM_anton_tihanskiy"
+		texturefile = "gfx/leaders/MMM/Portrait_MMM_anton_tihanskiy.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_MMM_danila_orshanskiy"
+		texturefile = "gfx/leaders/MMM/Portrait_MMM_danila_orshanskiy.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_MMM_pavel_voronin"
+		texturefile = "gfx/leaders/MMM/Portrait_MMM_pavel_voronin.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_MMM_nikolay_nekrasov"
+		texturefile = "gfx/leaders/MMM/Portrait_MMM_nikolay_nekrasov.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_MMM_igor_molodtsov"
+		texturefile = "gfx/leaders/MMM/Portrait_MMM_igor_molodtsov.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_MMM_artem_ryzhov"
+		texturefile = "gfx/leaders/MMM/Portrait_MMM_artem_ryzhov.dds"
+	}
+	spriteType = {
+    name = "GFX_portrait_MMM_anastasia_ivanova"
+    texturefile = "gfx/leaders/MMM/Portrait_MMM_anastasia_ivanova.dds"
+	}
+}
