@@ -1,6 +1,7 @@
-version="1.16"
+version="1.17"
 tags={
 	"Alternative History"
 }
 name="myt11"
-supported_version="1.16.6"
+supported_version="1.17.*"
+replace_path = "gfx/loadingscreens"
