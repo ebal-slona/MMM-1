@@ -3,11 +3,10 @@ capital = 137
 oob = "MMM_1936"
 add_ideas = {
 		MMM_home_of_revolution
-		MMM_georgiy_bril
 		MMM_trotskyite_plot
 		MMM_victors_of_war 
 		MMM_undiversified_economy
-		MMM_anastasia_ivanova
+		
 }
 
 # Starting tech
