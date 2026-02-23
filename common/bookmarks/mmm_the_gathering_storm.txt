@@ -3,7 +3,7 @@ bookmarks = {
 		name = "MMM_GATHERING_STORM_NAME"
 		desc = "MMM_GATHERING_STORM_DESC"
 		date = 1936.1.1.12
-		picture = "GFX_select_date_1925"
+		picture = "GFX_huy_sobaki"
 		default_country = "MMM"
 		default = yes
 		
