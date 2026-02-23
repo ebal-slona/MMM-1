@@ -1,0 +1,7 @@
+spriteTypes = {	
+
+	SpriteType = {
+		name = "GFX_huy_sobaki"
+		texturefile = "gfx/interface/huy_sobaki.dds"
+	}
+}
