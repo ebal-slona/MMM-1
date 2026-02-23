@@ -3,24 +3,27 @@ bookmarks = {
 		name = "MMM_GATHERING_STORM_NAME"
 		desc = "MMM_GATHERING_STORM_DESC"
 		date = 1936.1.1.12
-		picture = "GFX_select_date_1488"
+		picture = "GFX_select_date_1925"
 		default_country = "MMM"
 		default = yes
-
-		"MMM"={
+		
+	
+		MMM = {
 			history = "MMM_GATHERING_STORM_DESC"
 			ideology = neutrality
 			ideas = {
-				#
+				MMM_home_of_revolution
+				MMM_undiversified_economy
 			}
 			focuses = {
 			   MMM_mytischy_war_lore5
-			   
+			   MMM_mytischy_war_lore3
 			}
-			minor = yes
-		} 
+			minor = no
+		}
+
 		effect = {
-			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }
 		}
 	}
