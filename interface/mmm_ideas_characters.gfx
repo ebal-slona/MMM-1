@@ -31,12 +31,28 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_MMM_pavel_voronin.dds"
 	}
 	
-#	spriteType = {
-#		name = "GFX_idea_MMM_danila_orshanskiy"
-#		texturefile = "gfx/interface/ideas/idea_MMM_danila_orshanskiy.dds"
-#	}
-#	spriteType = {
-#		name = "GFX_idea_MMM_danila_orshanskiy"
-#		texturefile = "gfx/interface/ideas/idea_MMM_danila_orshanskiy.dds"
-#	}
+	spriteType = {
+		name = "GFX_idea_MMM_stariy"
+		texturefile = "gfx/interface/ideas/idea_MMM_stariy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_MMM_oleg"
+		texturefile = "gfx/interface/ideas/idea_MMM_oleg.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_MMM_dimon"
+		texturefile = "gfx/interface/ideas/idea_MMM_dimon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_MMM_vyach_peskin"
+		texturefile = "gfx/interface/ideas/idea_MMM_vyach_peskin.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_MMM_igor_molodtsov"
+		texturefile = "gfx/interface/ideas/idea_MMM_igor_molodtsov.dds"
+	}
 }

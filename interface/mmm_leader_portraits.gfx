@@ -39,4 +39,20 @@ spriteTypes = {
 		name = "GFX_portrait_MMM_anastasia_ivanova"
 		texturefile = "gfx/leaders/MMM/Portrait_MMM_anastasia_ivanova.dds"
 	}
+	spriteType = {
+		name = "GFX_portrait_MMM_stariy"
+		texturefile = "gfx/leaders/MMM/Portrait_MMM_stariy.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_MMM_oleg"
+		texturefile = "gfx/leaders/MMM/Portrait_MMM_oleg.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_MMM_dimon"
+		texturefile = "gfx/leaders/MMM/Portrait_MMM_dimon.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_MMM_vyach_peskin"
+		texturefile = "gfx/leaders/MMM/Portrait_MMM_vyach_peskin.dds"
+	}
 }

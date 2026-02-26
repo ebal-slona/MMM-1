@@ -67,4 +67,31 @@ leader_traits = {
 		random = no
 		stability_factor = 0.15
 	}
+	
+	stariy = {
+		random = no
+		non_core_manpower = 0.05
+		mobilization_laws_cost_factor = -0.25
+	}
+	
+	oleg = {
+		random = no
+		communism_drift = 0.1
+		operative_slot = 1
+		agency_upgrade_time = -0.15
+	}
+	
+	dimon = {
+		random = no
+		non_core_manpower = 0.1
+		stability_factor = -0.15
+		fascism_drift = 0.1
+	}
+	
+	vyachik = {
+		random = no
+		production_speed_rail_way_factor = 0.15
+		production_speed_supply_node_factor = 0.15
+		consumer_goods_factor = 0.1
+	}
 }

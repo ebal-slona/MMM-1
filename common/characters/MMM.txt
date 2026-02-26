@@ -78,18 +78,19 @@
 			idea_token = MMM_georgiy_bril
 			allowed = {
 				original_tag = MMM
+				NOT = { is_country_leader = yes }
 			}
 			traits = {
 				popular_figurehead2
 			}
-			cost = 100
+			cost = 150
 			available  = {
 				OR = {
 					has_government  = neutrality
 					has_government  = democratic
-				}
-				NOT = { is_country_leader = yes }
+					}
 			}
+			remove_trigger = { is_country_leader = yes}
 		}	
 	}
 
@@ -218,6 +219,22 @@
 				right_leaning_democrat
 			}
 		}	
+	advisor={
+	        slot = political_advisor
+			idea_token = MMM_igor_molodtsov
+			allowed = {
+				original_tag = MMM
+				
+			}
+			traits = { democratic_reformer }
+			cost = 150
+			available  = {
+
+				NOT = { is_country_leader = yes }
+			}
+			remove_trigger = { NOT = { has_government = democratic } }
+		}	
+
 }
 
 
@@ -285,6 +302,116 @@
 		}	
 	}
 	
+	
+	MMM_stariy = {
+    name = MMM_stariy
+	portraits = {
+			army={
+				small=GFX_idea_MMM_stariy
+				}
+			civilian={
+				large=GFX_portrait_MMM_stariy
+			}
+		}
+	advisor={
+	        slot = political_advisor
+			idea_token = MMM_stariy
+			allowed = {
+				original_tag = MMM
+			}
+			traits = {
+				stariy
+			}
+			cost = 150
+			available  = {
+			OR {	
+				has_government  = neutrality
+				has_government  = fascism
+				}
+			}
+		}
+   corps_commander={
+			traits={ media_personality war_hero infantry_officer }
+			skill=4
+			attack_skill=2
+            defense_skill=5
+            planning_skill=3
+            logistics_skill=2
+			legacy_id=-1
+  
+   }
+}
+
+	MMM_oleg = {
+    name = MMM_oleg
+	portraits = {
+			army={
+				small=GFX_idea_MMM_oleg
+			}
+			civilian={
+				large=GFX_portrait_MMM_oleg
+			}
+		}
+		
+		advisor={
+	        slot = political_advisor
+			idea_token = MMM_oleg
+			allowed = {
+				original_tag = MMM
+			}
+			traits = { oleg }
+			cost = 150
+			available = {
+				has_completed_focus = MMM_mytischy_war_lore1 
+			}
+		}	
+	}
+
+	MMM_dimon = {
+    name = MMM_dimon
+	portraits = {
+			army={
+				small=GFX_idea_MMM_dimon
+			}
+			civilian={
+				large=GFX_portrait_MMM_dimon
+			}
+		}
+		
+		advisor={
+	        slot = political_advisor
+			idea_token = MMM_dimon
+			allowed = {
+				original_tag = MMM
+			}
+			traits = { dimon }
+			cost = 150
+			
+		}	
+	}
+	
+	MMM_vyach_peskin = {
+    name = MMM_vyach_peskin
+	portraits = {
+			army={
+				small=GFX_idea_MMM_vyach_peskin
+			}
+			civilian={
+				large=GFX_portrait_MMM_vyach_peskin
+			}
+		}
+		
+		advisor={
+	        slot = political_advisor
+			idea_token = MMM_vyach_peskin
+			allowed = {
+				original_tag = MMM
+			}
+			traits = { vyachik }
+			cost = 150
+			
+		}	
+	}
 }
 
 #qwerty set_ruling_party

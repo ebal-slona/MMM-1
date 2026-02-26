@@ -81,3 +81,8 @@ recruit_character = MMM_igor_molodtsov
 recruit_character = MMM_danila_orshanskiy
 recruit_character = MMM_anastasia_ivanova
 recruit_character = MMM_artem_ryzhov
+
+recruit_character = MMM_stariy
+recruit_character = MMM_oleg
+recruit_character = MMM_dimon
+recruit_character = MMM_vyach_peskin
