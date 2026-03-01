@@ -86,3 +86,5 @@ recruit_character = MMM_stariy
 recruit_character = MMM_oleg
 recruit_character = MMM_dimon
 recruit_character = MMM_vyach_peskin
+recruit_character = MMM_sasha_baranov
+recruit_character = MMM_artem_rybkin

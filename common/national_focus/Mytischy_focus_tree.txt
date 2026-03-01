@@ -454,7 +454,7 @@ focus = {
 	}
 	focus = {
 			id = MMM_devolvation_of_rubl
-			icon = GFX_focus_fra_devalue_the_franc
+			icon = GFX_goal_MMM_devalue_the_rubl
 			prerequisite = {focus = MMM_heavy_indusrty }
 			prerequisite = {focus = MMM_repair_infrastructure }
 			#mutually_exclusive = { focus = MMM_mytischy_war_lore5 }

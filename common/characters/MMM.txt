@@ -412,6 +412,52 @@
 			
 		}	
 	}
+	
+	MMM_sasha_baranov = {
+    name = MMM_sasha_baranov
+	portraits = {
+			army={
+				small=GFX_idea_MMM_sasha_baranov
+			}
+			civilian={
+				large=GFX_portrait_MMM_sasha_baranov
+			}
+		}
+		
+		advisor={
+	        slot = political_advisor
+			idea_token = MMM_sasha_baranov
+			allowed = {
+				original_tag = MMM
+			}
+			traits = { baranov }
+			cost = 150
+			
+		}	
+	}
+	
+	MMM_artem_rybkin = {
+    name = MMM_artem_rybkin
+	portraits = {
+			army={
+				small=GFX_idea_MMM_artem_rybkin
+			}
+			civilian={
+				large=GFX_portrait_MMM_artem_rybkin
+			}
+		}
+		
+		advisor={
+	        slot = political_advisor
+			idea_token = MMM_artem_rybkin
+			allowed = {
+				original_tag = MMM
+			}
+			traits = { rybkin }
+			cost = 150
+			
+		}	
+	}
 }
 
 #qwerty set_ruling_party

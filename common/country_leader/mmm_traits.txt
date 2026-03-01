@@ -83,9 +83,9 @@ leader_traits = {
 	
 	dimon = {
 		random = no
-		non_core_manpower = 0.1
-		stability_factor = -0.15
-		fascism_drift = 0.1
+		non_core_manpower = 0.2
+		stability_factor = -0.10
+		fascism_drift = 0.15
 	}
 	
 	vyachik = {
@@ -93,5 +93,22 @@ leader_traits = {
 		production_speed_rail_way_factor = 0.15
 		production_speed_supply_node_factor = 0.15
 		consumer_goods_factor = 0.1
+	}
+	
+	rybkin = {
+		random = no
+		industrial_capacity_factory = 0.15
+		industrial_capacity_dockyard = 0.15
+		production_speed_buildings_factor = -0.05
+		industry_repair_factor = -0.05
+	}
+	
+	baranov = { 
+		random = no
+		resource_trade_cost_bonus_per_factory = 1
+		communism_drift = 0.01
+		trade_opinion_factor = 0.1
+		opinion_gain_monthly_factor = 0.05
+		opinion_gain_monthly_same_ideology_factor = 0.1
 	}
 }
