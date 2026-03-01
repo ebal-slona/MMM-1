@@ -111,4 +111,13 @@ leader_traits = {
 		opinion_gain_monthly_factor = 0.05
 		opinion_gain_monthly_same_ideology_factor = 0.1
 	}
+	
+	anya = { 
+		random = no
+		resource_trade_cost_bonus_per_factory = 1
+		communism_drift = 0.01
+		trade_opinion_factor = 0.1
+		opinion_gain_monthly_factor = 0.05
+		opinion_gain_monthly_same_ideology_factor = 0.1
+	}
 }
