@@ -90,7 +90,9 @@
 					has_government  = democratic
 					}
 			}
-			remove_trigger = { is_country_leader = yes}
+			remove_trigger = { NOT = { is_country_leader = yes} }
+			remove_trigger = { NOT = { has_government = democratic } }
+			remove_trigger = { NOT = { has_government = neutrality } }
 		}	
 	}
 
@@ -232,7 +234,8 @@
 
 				NOT = { is_country_leader = yes }
 			}
-			remove_trigger = { NOT = { has_government = democratic } }
+			remove_trigger = { is_country_leader = yes }
+
 		}	
 
 }
@@ -266,7 +269,19 @@
 				small = GFX_idea_MMM_artem_ryzhov
 			}
 		}
-		navy_leader = {
+		advisor={
+	        slot = high_command
+			idea_token = MMM_artem_ryzhov
+			ledger = army
+			allowed = {
+				original_tag = MMM
+			}
+			traits = {
+				navy_chief_decisive_battle_2
+			}
+			cost = 150
+			}
+			navy_leader = {
 			traits = { ironside ground_pounder }
 			skill = 5
 			attack_skill = 4
@@ -274,7 +289,8 @@
 			maneuvering_skill = 3
 			coordination_skill = 5
 			legacy_id = -1
-		}
+			}
+	
 	}
 
     MMM_anastasia_ivanova = {
@@ -338,8 +354,19 @@
             planning_skill=3
             logistics_skill=2
 			legacy_id=-1
-  
-   }
+		
+		available  = {
+			OR {	
+				has_government  = neutrality
+				has_government  = fascism
+				}
+			}
+		
+		visible = { NOT = {
+								has_government  = communism
+								has_government  = democratic
+						}
+				}		
 }
 
 	MMM_oleg = {
@@ -361,9 +388,7 @@
 			}
 			traits = { oleg }
 			cost = 150
-			available = {
-				has_completed_focus = MMM_mytischy_war_lore1 
-			}
+			
 		}	
 	}
 
@@ -455,6 +480,46 @@
 			}
 			traits = { rybkin }
 			cost = 150
+			
+		}	
+	}
+	
+	MMM_anya = {
+    name = MMM_anya
+	portraits = {
+			army={
+				small=GFX_idea_MMM_anya
+			}
+			civilian={
+				large=GFX_portrait_MMM_anya
+			}
+		}
+		
+		country_leader={
+			ideology=centrism
+			expire="1965.1.1.1"
+			id=-1
+			traits = {
+				anya
+			}
+		}
+		
+		advisor={
+	        slot = political_advisor
+			idea_token = MMM_anya
+			allowed = {
+				original_tag = MMM
+			}
+			traits = { anya }
+			cost = 150
+			available  = {
+				
+				AND = {
+					NOT = {has_completed_focus = MMM_mytischy_war_lore5}
+					has_government  = neutrality
+						}	
+			}
+			remove_trigger = { is_country_leader = yes }
 			
 		}	
 	}

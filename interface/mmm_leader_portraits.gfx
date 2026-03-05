@@ -63,4 +63,8 @@ spriteTypes = {
 		name = "GFX_portrait_MMM_sasha_baranov"
 		texturefile = "gfx/leaders/MMM/Portrait_MMM_sasha_baranov.dds"
 	}
+	spriteType = {
+		name = "GFX_portrait_MMM_anya"
+		texturefile = "gfx/leaders/MMM/Portrait_MMM_anya.dds"
+	}
 }

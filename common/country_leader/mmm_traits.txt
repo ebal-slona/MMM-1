@@ -65,6 +65,7 @@ leader_traits = {
 	}
 	nastya = {
 		random = no
+		neutrality_drift = 0.05
 		stability_factor = 0.15
 	}
 	
@@ -83,7 +84,8 @@ leader_traits = {
 	
 	dimon = {
 		random = no
-		non_core_manpower = 0.2
+		non_core_manpower = 0.05
+		compliance_gain = 0.05
 		stability_factor = -0.10
 		fascism_drift = 0.15
 	}
@@ -114,10 +116,7 @@ leader_traits = {
 	
 	anya = { 
 		random = no
-		resource_trade_cost_bonus_per_factory = 1
-		communism_drift = 0.01
-		trade_opinion_factor = 0.1
-		opinion_gain_monthly_factor = 0.05
-		opinion_gain_monthly_same_ideology_factor = 0.1
+		production_speed_industrial_complex_factor = 0.15
+		stability_factor = -0.15
 	}
 }

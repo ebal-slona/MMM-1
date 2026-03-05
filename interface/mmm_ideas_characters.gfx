@@ -65,4 +65,14 @@ spriteTypes = {
 		name = "GFX_idea_MMM_sasha_baranov"
 		texturefile = "gfx/interface/ideas/idea_MMM_sasha_baranov.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_MMM_anya"
+		texturefile = "gfx/interface/ideas/idea_MMM_anya.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_MMM_artem_ryzhov"
+		texturefile = "gfx/interface/ideas/idea_MMM_artem_ryzhov.dds"
+	}
 }
