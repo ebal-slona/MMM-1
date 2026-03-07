@@ -164,7 +164,7 @@
 															}
 			}
 		}
-}
+	}
 
     MMM_nikolay_nekrasov = {
     name = MMM_nikolay_nekrasov
@@ -200,8 +200,8 @@
             logistics_skill=1
 			legacy_id=-1
   
-   }
-}
+		}
+	}
 
     MMM_igor_molodtsov = {
     name = MMM_igor_molodtsov
@@ -238,7 +238,7 @@
 
 		}	
 
-}
+	}
 
 
 	MMM_danila_orshanskiy = {
@@ -260,7 +260,8 @@
 			legacy_id=-1
 			
 			}	
-	}			
+	}
+	
 	MMM_artem_ryzhov = {
 		name = MMM_artem_ryzhov
 		portraits = {
@@ -367,7 +368,8 @@
 								has_government  = democratic
 						}
 				}		
-}
+		}
+	}
 
 	MMM_oleg = {
     name = MMM_oleg

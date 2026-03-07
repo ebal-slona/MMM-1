@@ -84,10 +84,11 @@ leader_traits = {
 	
 	dimon = {
 		random = no
+		fascism_drift = 0.15
 		non_core_manpower = 0.05
 		compliance_gain = 0.05
 		stability_factor = -0.10
-		fascism_drift = 0.15
+		
 	}
 	
 	vyachik = {
