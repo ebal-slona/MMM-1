@@ -3,6 +3,6 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_event_MMM_kulek"
-		texturefile =  "gfx/interface/events/event_MMM_kulek.dds"
+		texturefile =  "gfx/event_pictures/event_MMM_kulek.dds"
 	}
 }

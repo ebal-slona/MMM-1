@@ -1,0 +1,26 @@
+### Открывшийся KULEK
+add_namespace = MMM
+
+news_event = {
+	id = MMM.1
+	title = news.MMM_kulek.t
+	desc = news.MMM_kulek.desc
+	picture = GFX_event_MMM_kulek
+	
+	major = yes
+	trigger = {
+	date > 1936.1.15
+	NOT = { has_global_flag = MMM_kulek_news }
+	}
+	
+	mean_time_to_happen = { days = 1 }
+
+	immediate = {
+		set_global_flag = MMM_kulek_news
+	}
+	
+	
+	option = {
+		name = news.MMM_kulek.a
+	}
+}
