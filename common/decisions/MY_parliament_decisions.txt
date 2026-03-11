@@ -1,0 +1,38 @@
+MY_parliament_category = {
+    icon = generic_political_reform
+    picture = GFX_decision_category_generic_political_reform
+
+    visible = {
+        has_country_flag = MY_has_parliament
+    }
+
+    allowed = {
+        always = yes
+    }
+
+    # МАЛОЕ ЛОББИРОВАНИЕ
+    MY_small_lobbying_effort = {
+        icon = generic_consumer_goods
+        cost = 35
+        days_mission_timeout = 21
+
+        complete_effect = {
+            add_to_variable = { par_party_1_support = 2 }
+            add_to_variable = { par_party_2_support = 3 }
+        }
+    }
+
+    # ЗАКОН О ВОЕННЫХ РАСКОШКАХ
+    MY_armament_bill = {
+        icon = generic_rearmament
+        cost = 50
+        available = {
+            check_variable = { par_party_1_support > 30 }
+            check_variable = { par_party_2_support > 40 }
+        }
+
+        complete_effect = {
+            add_war_support = 0.03
+        }
+    }
+}

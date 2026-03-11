@@ -1,0 +1,12 @@
+MY_small_lobbying_reward = {
+	random_list = {
+		25 = {
+			add_to_variable = { par_party_1_support = 1 }
+			add_to_variable = { par_party_2_support = 2 }
+		}
+		35 = {
+			add_to_variable = { par_party_3_support = 2 }
+			add_to_variable = { par_party_4_support = 3 }
+		}
+	}
+}

@@ -24,3 +24,28 @@ news_event = {
 		name = news.MMM_kulek.a
 	}
 }
+
+country_event = {
+    id = MMM.2
+    title = MMM.2.t
+    desc = MMM.2.desc
+    is_triggered_only = yes
+    trigger = {
+        has_timed_idea = MMM_suicide_idea
+    }
+
+    immediate = {
+        # Снижаем политическую власть, как эффект гражданской войны
+        add_political_power = -100
+        # Добавляем две фракции: одна под MMM_valeriy_minkov, другая под MMM_georgiy_bril
+        add_faction = MMM_valeriy_faction
+        add_faction = MMM_georgiy_faction
+    }
+
+    option = {
+        name = MMM.2.a
+        ai_chance = { factor = 1 }
+        # Можешь добавить дополнительные действия, если хочешь:
+        # Например, дать армии каждого лидера дополнительные бонусы
+    }
+}

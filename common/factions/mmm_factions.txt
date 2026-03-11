@@ -1,0 +1,15 @@
+faction = {
+    id = MMM_valeriy_faction
+    name = "Faction under MMM_valeriy_minkov"
+    leader = MMM_valeriy_minkov
+    color = { 0.8 0.3 0.3 }  # Цвет фракции
+    ideology = neutrality
+}
+
+faction = {
+    id = MMM_georgiy_faction
+    name = "Faction under MMM_georgiy_bril"
+    leader = MMM_georgiy_bril
+    color = { 0.3 0.3 0.8 }  # Цвет фракции
+    ideology = monarchy
+}

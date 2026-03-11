@@ -77,5 +77,34 @@ ideas = {
 				trade_opinion_factor = 0.25
 			}
 		}
+	
+	idea = {
+    id = MMM_repression_idea
+    is_hidden = yes
+    days = 60
+    modifier = {
+        add_stability = -0.05
+    }
+}
+
+	idea = {
+    id = MMM_trial_idea
+    is_hidden = yes
+    days = 60
+    modifier = {
+        add_war_support = 0.10
+    }
+}
+
+	idea = {
+    id = MMM_suicide_idea
+    is_hidden = yes
+    days = 30
+    modifier = {
+        add_political_power = -50
+    }
+}
+	
+	
 	}
 }

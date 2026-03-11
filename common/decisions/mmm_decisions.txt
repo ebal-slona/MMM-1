@@ -1,0 +1,65 @@
+decision = {
+    id = MMM_search_voznesenskaya
+    icon = GFX_decision_generic_purge
+    is_high_priority = yes
+    cost = 25
+
+    available = {
+        has_political_power = 25
+    }
+
+    completion_reward = {
+        add_political_power = -25
+        add_timed_idea = {
+            idea = MMM_repression_idea
+            days = 60
+        }
+    }
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+}
+
+decision = {
+    id = MMM_show_trial_georgiy
+    icon = GFX_decision_generic_trial
+    is_high_priority = yes
+    cost = 150
+
+    available = {
+        has_political_power = 150
+    }
+
+    completion_reward = {
+        add_political_power = -150
+        add_timed_idea = {
+            idea = MMM_trial_idea
+            days = 60
+        }
+    }
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+}
+
+decision = {
+    id = MMM_fabricate_suicide
+    icon = GFX_decision_generic_assassination
+    is_high_priority = yes
+    cost = 300
+
+    available = {
+        has_political_power = 300
+    }
+
+    completion_reward = {
+        add_political_power = -300
+        add_timed_idea = {
+            idea = MMM_suicide_idea
+            days = 30
+        }
+    }
+
+    cancel_if_invalid = yes
+    continue_if_invalid = no
+}

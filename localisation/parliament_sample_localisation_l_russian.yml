@@ -1,0 +1,8 @@
+﻿l_russian:
+ parliament_sample_category: "Parliament Sample Debug Decisions"
+ open_parliament_gui: "Open Parliament Sample GUI"
+ SAMPLE_seat_tt: "[SAMPLE_seat_party]"
+ SAMPLE_party_1: "Монархисты"
+ SAMPLE_party_2: "Коммунисты"
+ SAMPLE_party_3: "Либералы"
+ SAMPLE_party_4: "Националисты"
